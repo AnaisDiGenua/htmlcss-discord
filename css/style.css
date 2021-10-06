@@ -22,6 +22,13 @@ body {
 a {
     text-decoration: none;
 }
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+
 
 
 
@@ -130,14 +137,12 @@ nav ul li a:hover {
 /* main */
 .section-content .image {
     width: 50%;
-    float: left;
 }
 .section-content .content {
     width: 35%;
-    float: right;
 }
 .section-content {
-    padding: 50px 0;
+    padding: 80px 0;
     margin: 0 auto;
 }
 .image img {
@@ -148,7 +153,7 @@ nav ul li a:hover {
 }
 .content h2 {
     font-size: 30px;
-    line-height: 1.80;
+    line-height: 1.70;
 }
 .content p {
     line-height: 1.60;
