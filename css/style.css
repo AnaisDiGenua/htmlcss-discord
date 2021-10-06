@@ -92,6 +92,13 @@ nav ul li a:hover {
 .black:hover {
     background-color: #443f3e;
 }
+.violet {
+    color: white;
+    background-color: #8ea1e1;
+}
+#quarta-sezione .btn{
+    padding: 10px 15px;
+}
 .accedi-box .white {
     padding: 5px 10px;
     font-size: 12px;
@@ -131,18 +138,14 @@ nav ul li a:hover {
 
 /* main */
 main > section {
-    height: 500px;
+    margin: 150px 0;
 }
 .main-container {
-    height: 100%;
     position: relative;
 }
 .section-content {
     width: 90%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
 }
 .image {
     width: 47%;
@@ -156,11 +159,25 @@ main > section {
 .image img {
     width: 100%;
 }
-.content h2 {
+.title-style {
     font-size: 30px;
     line-height: 1.40;
     margin-bottom: 10px;
 }
-.content p {
+.text-style {
     line-height: 1.60;
+}
+
+/* quarta sezione */
+#quarta-sezione .section-content {
+    text-align: center;
+}
+#quarta-sezione .section-content img {
+    width: 80%;
+}
+.question {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    
 }
