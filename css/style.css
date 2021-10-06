@@ -3,3 +3,91 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+/* *****debug***** */
+.debug #jumbo .container {
+    height: 100%;
+    border: 2px solid black;
+}
+.debug #jumbo {
+    background-color: lightseagreen;
+}
+
+
+
+/* header */
+header {
+    height: 80px;
+    line-height: 80px;
+    background-color: #3161e0;
+}
+.logo, .accedi {
+    width: 20%;
+    float: left;
+}
+.accedi {
+    text-align: right;
+}
+.logo img {
+    vertical-align: middle;
+}
+nav {
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 15px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* btn */
+.btn {
+    border-radius: 2rem;
+}
+.white {
+    color: black;
+    background-color: white;
+}
+.white:hover {
+    color: #3161e0;
+}
+.accedi-box .white {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+
+
+/* jumbotron */
+#jumbo {
+    height: 515px;
+}
