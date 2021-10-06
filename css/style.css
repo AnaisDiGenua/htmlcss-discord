@@ -22,13 +22,10 @@ a {
 
 
 /* *****debug***** */
-.debug #jumbo .container {
+/* .debug #jumbo .container {
     height: 100%;
     border: 2px solid black;
-}
-.debug #jumbo {
-    background-color: lightseagreen;
-}
+} */
 
 
 
@@ -36,7 +33,7 @@ a {
 header {
     height: 80px;
     line-height: 80px;
-    background-color: #3161e0;
+    background-color: #255ee9;
 }
 .logo, .accedi {
     width: 20%;
@@ -78,11 +75,23 @@ nav ul li a:hover {
     background-color: white;
 }
 .white:hover {
-    color: #3161e0;
+    color: #255ee9;
+}
+.black {
+    color: white;
+    background-color: black;
+}
+.black:hover {
+    background-color: #443f3e;
 }
 .accedi-box .white {
     padding: 5px 10px;
     font-size: 12px;
+}
+.jumbo-content .btn {
+    font-weight: 500;
+    padding: 14px 25px;
+    margin: 0 10px;
 }
 
 
@@ -90,4 +99,22 @@ nav ul li a:hover {
 /* jumbotron */
 #jumbo {
     height: 515px;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+}
+.jumbo-content {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.jumbo-content h1 {
+    font-size: 45px;
+}
+.jumbo-content p {
+    line-height: 1.60;
+    font-weight: 500;
+    margin: 30px 0;
 }
