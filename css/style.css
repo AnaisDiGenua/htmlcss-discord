@@ -35,7 +35,6 @@ a {
 /* *****debug***** */
 .debug main > section {
     height: 500px;
-    background-color: lightseagreen;
 }
 
 
@@ -153,7 +152,8 @@ nav ul li a:hover {
 }
 .content h2 {
     font-size: 30px;
-    line-height: 1.70;
+    line-height: 1.40;
+    margin-bottom: 10px;
 }
 .content p {
     line-height: 1.60;
