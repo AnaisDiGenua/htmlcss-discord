@@ -27,12 +27,9 @@ a {
 .gray-background {
     background-color: #f6f6f6;
 }
-
-
-
-
-/* *****debug***** */
-
+ul li {
+    list-style: none;
+}
 
 
 
@@ -42,7 +39,10 @@ header {
     line-height: 80px;
     background-color: #255ee9;
 }
-.logo, .accedi {
+header .container {
+    text-align: center;
+}
+.logo {
     width: 20%;
     float: left;
 }
@@ -59,7 +59,6 @@ nav {
 }
 nav ul li {
     display: inline-block;
-    list-style: none;
 }
 nav ul li a {
     color: white;
@@ -78,6 +77,18 @@ nav ul li a:hover {
     border-radius: 2rem;
     color: white;
 }
+header .btn, footer .btn {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+#jumbo .btn {
+    font-weight: 500;
+    padding: 14px 25px;
+    margin: 0 10px;
+}
+#quarta-sezione .btn{
+    padding: 10px 15px;
+}
 .white {
     color: black;
     background-color: white;
@@ -94,17 +105,8 @@ nav ul li a:hover {
 .violet {
     background-color: #8ea1e1;
 }
-#quarta-sezione .violet{
-    padding: 10px 15px;
-}
-.accedi-box .white {
-    padding: 5px 10px;
-    font-size: 12px;
-}
-.jumbo-content .btn {
-    font-weight: 500;
-    padding: 14px 25px;
-    margin: 0 10px;
+.violet:hover {
+    background-color:#b3bfe6 ;
 }
 
 
@@ -180,15 +182,61 @@ main > section {
 
 /* footer */
 footer {
-    height: 300px;
-    /* background-color: #23272a; */
-    background-color: lightpink;
+    background-color: #23272a;
+    padding: 80px 0 20px 0;
 }
 footer h3 {
     font-size: 25px;
 }
+.footer-top {
+    border-bottom: 1px solid #8ea1e1;
+    padding-bottom: 20px;
+}
+.col {
+    width: calc(75% / 4 - 20px);
+}
+.col.big {
+    width: 25%;
+}
+.col ul a{
+    color: white;
+    font-size: 12px;
+}
+.col ul a:hover {
+    text-decoration: underline;
+}
+.col ul li {
+    margin-bottom: 5px;
+}
+.mr-20 {
+    margin-right: 50px;
+}
 .violet-text {
     color: #8ea1e1;
+}
+.social-language-list .ita-flag {
+    width: 20px;
+}
+.social-language-list h3, .language {
+    margin-bottom: 20px;
+}
+.social-language-list .language {
+    margin-bottom: 20px;
+}
+.social span i {
+    color: white;
+}
+.social .fa-instagram {
+    margin: 0 15px;
+}
+.social .fa-facebook {
+    margin-right: 15px;
+}
+.social-language-list .language {
+    margin-bottom: 20px;
+}
+.footer-bottom {
+    padding-top: 20px;
 }
 
 
