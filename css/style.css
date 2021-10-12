@@ -42,12 +42,8 @@ header {
 header .container {
     text-align: center;
 }
-.logo {
+header .logo, header .accedi-box{
     width: 20%;
-    float: left;
-}
-.accedi {
-    text-align: right;
 }
 .logo img {
     vertical-align: middle;
@@ -123,7 +119,7 @@ header .btn, footer .btn {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
 }
 .jumbo-content h1 {
     font-size: 45px;
