@@ -46,6 +46,7 @@ header .logo, header .accedi-box{
     width: 20%;
 }
 .logo img {
+    width: 100px;
     vertical-align: middle;
 }
 nav {
